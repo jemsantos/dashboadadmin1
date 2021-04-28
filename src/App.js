@@ -1,9 +1,13 @@
 import { useState } from 'react';
 
-import './App.css';
+import Navbar from './components/navbar/Navbar';
 import Sidebar from './components/sidebar/Sidebar';
+import Main from './components/main/Main';
+
+import './App.css';
 
 const App = () => {
+
   const [sidebarOpen, setSidebarOpen] = useState(false);
   const openSidebar = () => {
     setSidebarOpen(true);
@@ -14,9 +18,11 @@ const App = () => {
 
   return (
     <div className="container">
-      <Sidebar />
+      <Navbar sidebarOpen={sidebarOpen} openSidebar={openSidebar} />
+      <Main />
+      <Sidebar sidebarOpen={sidebarOpen} closeSidebar={closeSidebar} />
     </div>
   );
-}
+};
 
 export default App;
