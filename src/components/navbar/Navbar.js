@@ -1,4 +1,4 @@
-import avatar from '../../assets/avatar.svg';
+import avatar from '../../assets/ni01.jfif'; /* avatar.svg */
 import './Navbar.css';
 
 const Navbar = ({ sidebarOpen, openSidebar }) => {
