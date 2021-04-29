@@ -1,7 +1,3 @@
-/*
- * INSTALAR: yarn add react-vis
-*/
-
 import hello from '../../assets/46090502.png'; /* hello.svg */
 import Chart from '../charts/Chart';
 
@@ -12,7 +8,7 @@ const Main = () => {
     <main>
       <div className="main__container">
         <div className="main__title">
-          <img src="{hello}" alt="hello" />
+          <img src={hello} alt="hello" />
           <div className="main__greeting">
             <h1>Olá Júlio</h1>
             <p>Bem vindo ao seu painel</p>

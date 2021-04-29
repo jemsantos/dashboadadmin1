@@ -59,16 +59,7 @@
 }
 
 @media only screen and (max-width: 480px) {
-  /* parei em 1h00min......
-
-  ASSISTIR DEPOIS:
-    Figma Design + React | Dashboard App Deposits Page - Light/Dark Mode
-    https://www.youtube.com/watch?v=tNsveb6RRGA
-    https://github.com/iamelimars/figma-react-dashboard
-  */
-
   .navbar__left {
     display: none;
   }
 }
-

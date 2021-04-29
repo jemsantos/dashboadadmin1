@@ -30,6 +30,6 @@ const Navbar = ({ sidebarOpen, openSidebar }) => {
 
     </nav>
   );
-}
+};
 
 export default Navbar;
