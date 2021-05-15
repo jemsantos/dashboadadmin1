@@ -60,6 +60,7 @@ const Main = () => {
 
               <i className="fa fa-usd"></i>
             </div>
+
             <Chart />
           </div>
 
